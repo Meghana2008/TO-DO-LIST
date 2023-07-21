@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d0c5aa; /* Light green background color for the body */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #3f32cf;
+    border-radius: 5px;
+    background-color: #847e8e; /* Light gray background color for the container */
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #1987ac; /* Add a border to the input field */
+    border-radius: 5px;
+    background-color: #acb9ab; /* White background color for the input field */
+  }
+  
+  button {
+    padding: 8px 15px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #0a495e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .task {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #170314;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task-name {
+    flex-grow: 1;
+    color: #c964ac; /* Color for the task name text (a shade of blue) */
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
